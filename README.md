@@ -33,6 +33,7 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 - On-demand capacity mode
 
 ![DynamoDB Table](./docs/db.png)
+
 ---
 
 ## 3. EC2 Instances
@@ -42,6 +43,7 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 
 ### Backend Instances: 'app-backend-1`, `app-backend-2`  
 - **Deployed in private subnets.**
+  
 ![instances](./docs/instances.png)
 
 ---
@@ -51,10 +53,12 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 -**provides network isolation.**
 
 ![VPC](./docs/vpc.png)
+
 ---
 ## 5. Subnets
 
--**Public and private subnetsfor proxy and backend instances.**
+-**Public and private subnets for proxy and backend instances.**
+
 ![Subnets](./docs/subnets.png)
 ---
 
