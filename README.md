@@ -68,25 +68,28 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 ![internal LOAD BALANCER](./docs/internalLB.png)
 ---
 
-# Deployment Guide
+# 📋 Deployment Guide
 
-## Prerequisites
+## 🛠️ Prerequisites
 - Terraform v1.0+ installed
 - AWS configured with credentials
   
-## Step-by-Step Deployment
+## 🔑 Step-by-Step Deployment
 
-### 1. Initialize Terraform
+### 🌱 1. Initialize Terraform
 -**terraform init**
 
-### 2. Configure Variables
+### 💻 2. Configure Variables
 -**variables.tf - Update AMI IDs, instance types, etc.**
 -**terraform.tfvars - Set your specific values**
 
-### 3. Apply Infrastructure
+### 💡3. Apply Infrastructure
 -**terraform apply**
 
-### 4. Access Deployment Outputs
+### 🔍 4. Access Deployment Outputs
 -**find output through terraform output**
+
+### ☠️ 5. Destroy Infrastructure (When Complete)
+-**terraform destroy**
 
 
