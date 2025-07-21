@@ -65,10 +65,29 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 
 -**Public & Internal load balancers to distribute traffic to proxy and backend instances.**
 
-![PUBLIC LOAD BALANCER](./docs/load balancer.png)
 ![PUBLIC LOAD BALANCER](./docs/publicLB.png)
 ![internal LOAD BALANCER](./docs/internalLB.png)
 ---
 
+# Deployment Guide
+
+## Prerequisites
+- Terraform v1.0+ installed
+- AWS configured with credentials
+  
+## Step-by-Step Deployment
+
+### 1. Initialize Terraform
+-**terraform init**
+
+### 2. Configure Variables
+-**variables.tf - Update AMI IDs, instance types, etc.**
+-**terraform.tfvars - Set your specific values**
+
+### 3. Apply Infrastructure
+-**terraform apply**
+
+### 4. Access Deployment Outputs
+-**in terraform output**
 
 
