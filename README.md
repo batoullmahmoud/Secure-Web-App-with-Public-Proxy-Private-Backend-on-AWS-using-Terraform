@@ -26,18 +26,22 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 ![S3 State Bucket](./docs/s3.png)
 
 ---
-## 2.  DynamoDB State Locking
+## 2.  DynamoDB State
 
 **Purpose**: Prevents concurrent Terraform executions that could corrupt state  
 **Configuration**:
-- Deletion protection enabled
 - On-demand capacity mode
 
 ![DynamoDB Table](./docs/db.png)
 ---
-### 3. Security Groups
 
-- **`bashar-pub-sg`**: Allows HTTP/HTTPS/SSH to proxy from anywhere.
-- **`bashar-prv-sg`**: Allows only internal traffic from proxy SG and SSH access.
+### 3. EC2 Instances
+## Proxy Instances: Named 
+**Deployed in public subnets.**
 
-![Security Groups](./images/security-groups.png)
+## Backend Instances: Named 
+- **Deployed in private subnets.**
+- 
+![instances](./docs/instances.png)
+---
+
