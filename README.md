@@ -1,4 +1,4 @@
 #  Terraform Project
 
 ## Infrastructure Overview
-![AWS Architecture](docs/project.png=800x600)
+![AWS Architecture](./docs/project.png=800x600)
