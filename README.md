@@ -5,7 +5,7 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 ---
 ### 🧱 Architecture Summary:
 - **VPC (10.0.0.0/16)** with public and private subnets spread across two availability zones.
-- **Public Subnets** host **proxy servers** (e.g., NGINX or HAProxy) to route traffic.
+- **Public Subnets** host **proxy servers**  to route traffic.
 - **Private Subnets** host **backend web servers** for handling application logic.
 - **Security Groups** control traffic between layers to enforce strict access rules.
 - An **Application Load Balancer (ALB)** distributes external traffic across proxies.
@@ -25,13 +25,6 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 
 ![S3 State Bucket](./docs/s3.png)
 
-- **VPC**: Named `bashar-vpc-1`, provides network isolation.
-- **Subnets**: Public and private subnets are created in two Availability Zones:
-  - Public subnets host the **proxy** servers.
-  - Private subnets host **backend web** servers.
-
-![VPC Subnet Layout](./images/vpc-subnet-layout.png)
-
 ---
 ## 2.  DynamoDB State Locking
 
@@ -40,7 +33,7 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 - Deletion protection enabled
 - On-demand capacity mode
 
-![DynamoDB Table](./docs/db.png)****
+![DynamoDB Table](./docs/db.png)
 ---
 ### 3. Security Groups
 
