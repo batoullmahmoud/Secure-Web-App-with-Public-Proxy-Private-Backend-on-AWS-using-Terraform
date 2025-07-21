@@ -49,10 +49,13 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 
 ### named :  'app-vpc`
 -**provides network isolation.**
+
+![VPC](./docs/vpc.png)
 ---
 ## 5. Subnets
 
 -**Public and private subnetsfor proxy and backend instances.**
+![Subnets](./docs/subnets.png)
 ---
 
 
