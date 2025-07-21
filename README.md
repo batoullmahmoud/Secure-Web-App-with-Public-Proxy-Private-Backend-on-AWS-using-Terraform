@@ -16,7 +16,7 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 
 ## 🛠️ How It Works
 
-### 1.   Amazon S3 Storage 
+### 1.  Amazon S3 Storage 
 **Purpose**: Stores Terraform state files securely with versioning enabled  
 **Key Features**:
 - Located in `us-east-1` (N. Virginia)
@@ -35,14 +35,15 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 ![DynamoDB Table](./docs/db.png)
 ---
 
-### 3. EC2 Instances
-## Proxy Instances: Named 
-**Deployed in public subnets.**
+## 3. EC2 Instances
 
-## Backend Instances: Named 
+### Proxy Instances :  'app-proxy-1`, `app-proxy-2` 
+-**Deployed in public subnets.**
+
+### Backend Instances: 'app-backend-1`, `app-backend-2`  
 - **Deployed in private subnets.**
-- 
 ![instances](./docs/instances.png)
 
 ---
+
 
