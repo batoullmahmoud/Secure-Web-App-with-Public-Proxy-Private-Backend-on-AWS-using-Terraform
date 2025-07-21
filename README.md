@@ -43,5 +43,6 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 - **Deployed in private subnets.**
 - 
 ![instances](./docs/instances.png)
+
 ---
 
