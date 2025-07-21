@@ -49,7 +49,6 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 ---
 ## 4. VPC
 
-### named :  'app-vpc`
 -**provides network isolation.**
 
 ![VPC](./docs/vpc.png)
