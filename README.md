@@ -4,7 +4,7 @@
 This project provisions a highly available, multi-tier AWS infrastructure using Terraform.
 ---
 ### 🧱 Architecture Summary:
-- **VPC (10.0.0.0/16)** with public and private subnets spread across two availability zones.
+- **VPC** with public and private subnets spread across two availability zones.
 - **Public Subnets** host **proxy servers**  to route traffic.
 - **Private Subnets** host **backend web servers** for handling application logic.
 - **Security Groups** control traffic between layers to enforce strict access rules.
@@ -60,6 +60,14 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 -**Public and private subnets for proxy and backend instances.**
 
 ![Subnets](./docs/subnets.png)
+---
+## 6. Load Balancer
+
+-**Public & Internal load balancers to distribute traffic to proxy and backend instances.**
+
+![PUBLIC LOAD BALANCER](./docs/load balancer.png)
+![PUBLIC LOAD BALANCER](./docs/publicLB.png)
+![internal LOAD BALANCER](./docs/internalLB.png)
 ---
 
 
