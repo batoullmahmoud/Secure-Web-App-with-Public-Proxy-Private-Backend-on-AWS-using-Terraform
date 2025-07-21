@@ -87,6 +87,6 @@ This project provisions a highly available, multi-tier AWS infrastructure using 
 -**terraform apply**
 
 ### 4. Access Deployment Outputs
--**in terraform output**
+-**find output through terraform output**
 
 
